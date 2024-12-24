@@ -1,0 +1,35 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+}
+.settings__setting-column:last-child {
+  opacity: 0.7;
+}
+.settings__setting-column {
+  position: relative;
+  display: flex;
+}
+.badge-new {
+  background-color: tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 3px;
+  right: -20px;
+}
